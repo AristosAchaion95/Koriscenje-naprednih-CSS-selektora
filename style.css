@@ -1,0 +1,28 @@
+/* Stilizovanje linkova */
+
+a[href*="google"] {
+    color:green
+}
+
+a[href*="link"] {
+    color: red;
+}
+
+/* Stilizacija paragrafa */
+
+#second-div p:nth-child(2n+2) {
+    color: red;
+}
+
+#second-div p:nth-child(2n+1) {
+    color: blue;
+}
+
+#first-div > p::after {
+    content: "-NEW";
+    color: yellow;
+}
+
+p:nth-child(8):hover {
+    font-style: italic;
+}
